@@ -46,7 +46,7 @@ A partir de ahora trabajaremos en local y subiremos los cambios en el repositori
 **9. Modificaremos el archivo README.md para que nos muestre el logo de GitHub.**
 - Guarda el archivo README.md modificado (Ctrl + s)
 - Añade los cambios en el Stage Area.
-- Haz un commit con el comentario "muestro el logo GitHub".
+- Haz un commit con el comentario "añado logo GitHub".
 - Después haz un push.
 - Refresca la página del navegador donde tenemos el repositorio remoto en GitHub, para comprobar los cambios.
 
@@ -65,9 +65,9 @@ Es decir, *vamos a deshacer la última acción realizada*:
 
  - Tomaremos el identificador del commit que queremos restaurar.
     ```
-    git reset --hard IDENTIFICADOR_DEL_COMMIT
+    git reset --hard <identificador_del_commit>`
     ```
- - Enviaremos los cambios a la rama main del repositorio remoto (GitHub):
+ - Enviaremos los cambios a la rama master del repositorio remoto (GitHub):
     ```
-    git push origin HEAD:main --force
+    git push origin HEAD:master --force
     ```
